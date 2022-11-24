@@ -25,4 +25,10 @@ alphabet := digit | letter
 ### Pentru exemplu am folosit ex 1 semiar 4
 
 ![Project](Automaton.png)
+
+({q0},1)->(q1)
+((q1),1)->(q1)
+((q1),0)->[q2]
+((q1),2)->[q3]
+([q3],0)->[q3]
     
