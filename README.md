@@ -7,11 +7,17 @@ Statement: Write a program that reads the elements of a finite automaton from a 
 ### Solution    
   
 transition := "(" statement, alphabet ")" "->" statement 
+
 statement := initialStatement | normalStatement | finalStatement
 initialStatement := "{" "q" digit "}"
+
 digit := "0" | "1" | ... | "9"
+
 letter := "a" | "b" | ... | "z" | "A" | "B" | ... | "Z"
+
 normalStatement := "(" "q" digit ")"
-finalStatement := "[" "q" digit "]"    
+
+finalStatement := "[" "q" digit "]"
+
 alphabet := digit | letter
     
