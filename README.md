@@ -24,5 +24,5 @@ alphabet := digit | letter
 
 ### Pentru exemplu am folosit ex 1 semiar 4
 
-
+[Project](Automaton.jpeg]
     
