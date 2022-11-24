@@ -22,7 +22,7 @@ finalStatement := "[" "q" digit "]"
 alphabet := digit | letter
 
 
-### Pentru exemplu am folosit ex 1 semiar 4
+### For "exemplu.txt" I've used ex. 1 semiary 4
 
 ![Project](Automaton.png)
 
@@ -36,3 +36,5 @@ alphabet := digit | letter
 
 ([q3],0)->[q3]
     
+### After running the main.py program, we get:
+
