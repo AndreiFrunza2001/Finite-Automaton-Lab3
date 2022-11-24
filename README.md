@@ -20,4 +20,9 @@ normalStatement := "(" "q" digit ")"
 finalStatement := "[" "q" digit "]"
 
 alphabet := digit | letter
+
+
+### Pentru exemplu am folosit ex 1 semiar 4
+
+
     
