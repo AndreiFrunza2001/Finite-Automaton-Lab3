@@ -27,8 +27,12 @@ alphabet := digit | letter
 ![Project](Automaton.png)
 
 ({q0},1)->(q1)
+
 ((q1),1)->(q1)
+
 ((q1),0)->[q2]
+
 ((q1),2)->[q3]
+
 ([q3],0)->[q3]
     
