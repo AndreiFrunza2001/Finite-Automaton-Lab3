@@ -38,3 +38,4 @@ alphabet := digit | letter
     
 ### After running the main.py program, we get:
 
+![Project](ProofOfRunning.png)
