@@ -9,6 +9,7 @@ Statement: Write a program that reads the elements of a finite automaton from a 
 transition := "(" statement, alphabet ")" "->" statement 
 
 statement := initialStatement | normalStatement | finalStatement
+
 initialStatement := "{" "q" digit "}"
 
 digit := "0" | "1" | ... | "9"
